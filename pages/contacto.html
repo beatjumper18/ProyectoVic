@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li><a href="../index.html"">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h1>Contactanos</h1>
+        <div class="formulario">
+        <form action="">
+            <fieldset>
+                <div>
+                    <label for="nombre">
+                        Nombre y apellido
+                    </label>
+                    <input type="text" name="nombre" placeholder="Ingresa tu nombre">
+                </div>
+                <br>
+                <div>
+                    <label for="telefono">
+                        Telefono
+                    </label>
+                    <input type="tel" name="telefono" placeholder="Ingresa tu numero">
+                </div>
+                <br>
+                <div>
+                    <label for="email">
+                        Mail
+                    </label>
+                    <input type="email" name="email" placeholder="Ingresa tu mail">
+                </div>
+                <br>
+                <div>
+                    <label for="tipo">
+                        Motivo del contacto
+                    </label>
+                    <select name="tipo" id="">
+                        <option value="Consulta por servicios">
+                            Consulta por servicios
+                        </option>
+                        <option value="Consulta por productos">
+                            Consulta por productos
+                        </option>
+                        <option value="Trabaja con nosotros">
+                            Trabaja con nosotros
+                        </option>
+                        <option value="Otros">
+                            Otros
+                        </option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label for="preferencia">
+                        Prefiero que me contacten via
+                    </label>
+                    <br>
+                    <input type="radio" name="preferencia" value="Telefono">Telefono 
+                    <br>
+                    <input type="radio" name="preferencia" value="Mail">Mail
+                </div>
+                <br>
+                <div>
+                    <input type="submit">
+                    <input type="reset">
+                </div>
+
+            </fieldset>
+        </form>
+    </div>
+
+    </main>
+
+    <footer>
+        <h2>© Todos los derechos reservados. </h2>
+    </footer>
+</body>
+</html>
