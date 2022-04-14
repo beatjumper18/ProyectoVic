@@ -76,6 +76,42 @@ ul li a{
     font-family: 'Roboto', sans-serif;
 }
 
+.menu ul li:hover{
+    background-color: rgb(243, 90, 90);;
+    transform: scale(1.2);
+}
+
+.n1:hover{
+    transform: scale(1.1);
+}
+
+.n1{
+    transition: 1s;
+}
+
+.n2:hover{
+    transform: scale(1.1);
+}
+
+.n2{
+    transition: 1s;
+}
+
+.n3:hover{
+    transform: scale(1.1);
+}
+
+.n3{
+    transition: 1s;
+}
+
+.n4:hover{
+    transform: scale(1.1);
+}
+
+.n4{
+    transition: 1s;
+}
 
 .ofertas{
     text-align: center;
@@ -111,6 +147,7 @@ ul li a{
 }
 
 h2{
+    text-align: center;
     background-color: rgb(228, 44, 44);
     color: antiquewhite;
     font: font-family: 'Lato', sans-serif;
